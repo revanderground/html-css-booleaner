@@ -1,0 +1,66 @@
+
+
+
+
+body{
+    margin: 0;
+}
+
+.container{
+    position: relative;
+    background-image: url("../img/pattern.png");
+    background-color: #569fff;
+    width: 100%;
+    
+    
+}
+
+.logo{
+    
+    width: 15%;
+}
+
+.title{
+    font-weight: bolder;
+    font-size: 48px; 
+    font-family:'Moul',
+}
+
+.credits{
+    color: grey;
+    font-weight: 600;
+}
+
+.date{
+    color: grey;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+table{
+    width: 100%
+}
+
+th{
+    text-align: left;
+    font-weight: normal;
+    
+}
+
+
+.titolitab{
+    font-weight: bold;
+}
+
+tbody{
+    font-weight: normal;    
+}
+
+.largacella{
+    width:50%;
+    
+}
+
+.rigazzurrina{
+    background-color: rgb(44, 255, 255);
+}
