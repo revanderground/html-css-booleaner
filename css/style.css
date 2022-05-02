@@ -20,7 +20,7 @@ body{
     width: 15%;
 }
 
-.title{
+.titolo{
     font-weight: bolder;
     font-size: 48px; 
     font-family:'Moul',
@@ -31,11 +31,22 @@ body{
     font-weight: 600;
 }
 
+.author{
+    color:rgb(0, 213, 255);
+}
+
 .date{
     color: grey;
     font-weight: 600;
     font-size: 13px;
 }
+
+.imgbox{
+    position: absolute;
+    height: 600;
+    text-align: center;
+}
+
 
 table{
     width: 100%
