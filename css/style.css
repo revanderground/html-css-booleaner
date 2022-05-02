@@ -84,25 +84,52 @@ tbody{
     color: grey;
 }
 
-#foot{
-   min-height: 100%;
+#.boximg{
+    position: relative;
+   
 }
 
-.lorem1{
+
+   
+}
+
+.ad1{
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-image: url("../img/monitor.jpg")
+    position: relative;
+ 
     font-size: larger;
     font-weight: bold;
     color: white;
-    background-image: url("../img/monitor.jpg");
 }
 
-.lorem2{
-    font-size: larger;
-    font-weight: bold;
-    color: white;
+.ad2{
+    margin: 0px;
+    background-repeat: no-repeat;
     background-image: url("../img/graph.jpg");
-    background height: 400px;
+  
+    position: relative;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
 }
 
 .evidenziato{
     background-color: yellow;
 }
+
+div.boxtesto {
+    position: absolute;
+    border-top: -40px;
+    left: 0px;
+    width: 100%;
+   
+  }
+  span.testo {
+    padding: 10px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: larger;
+    letter-spacing: -1px;
+  }
