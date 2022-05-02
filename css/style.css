@@ -52,7 +52,7 @@ table{
 th{
     text-align: left;
     font-weight: normal;
-    
+    border-left: 0;
 }
 
 
@@ -64,6 +64,10 @@ tbody{
     font-weight: normal;    
 }
 
+.imgdescription{
+    font-size: small;
+}
+
 .largacella{
     width:50%;
     
@@ -71,4 +75,34 @@ tbody{
 
 .rigazzurrina{
     background-color: rgb(44, 255, 255);
+
+}
+
+.altro{
+    font-size: large;
+    font-weight: bold;
+    color: grey;
+}
+
+#foot{
+   min-height: 100%;
+}
+
+.lorem1{
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+    background-image: url("../img/monitor.jpg");
+}
+
+.lorem2{
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+    background-image: url("../img/graph.jpg");
+    background height: 400px;
+}
+
+.evidenziato{
+    background-color: yellow;
 }
