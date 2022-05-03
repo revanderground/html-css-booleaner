@@ -1,26 +1,26 @@
-
-
-
-
-body{
-    position: relative;
+*{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    
+    background-image: url("../img/pattern.png");
+    background-color: #569fff;
+    height: 100px;
+    background-size: 30%;   
 }
 
 .container{
-    position: relative;
-    background-image: url("../img/pattern.png");
-    background-color: #569fff;
-    
-    height: 100%;
-    
-    
+    width: 80%;
+    margin: 0 auto;
 }
 
 .logo{
-    padding-top: 6%;
-    bottom 4px;
-    width: 15%;
+    height: 50px;
+    margin-top: 40px;
 }
 
 .titolo{
@@ -75,7 +75,7 @@ tbody{
 
 .rigazzurrina{
     background-color: rgb(44, 255, 255);
-
+    
 }
 
 .altro{
